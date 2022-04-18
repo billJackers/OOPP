@@ -20,4 +20,19 @@ public class Square extends Rectangle {
         super.setWidth(side);
         super.setLength(side);
     }
+    
+    @Override
+    public void setWidth(double side) {
+        this.setSide(side);
+    }
+    
+    @Override
+    public void setLength(double side) {
+        this.setSide(side);
+    }
+    
+    @Override
+    public String toString() {
+        return super.super.toString() + ", side: " + this.getSide();
+    }
 }
