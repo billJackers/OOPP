@@ -33,6 +33,6 @@ public class Shape {
     // Returns a string with all attributes
     @Override
     public String toString() {
-        return "color: " + this.color + ", filled" + this.filled;
+        return "color: " + this.color + ", filled: " + this.filled;
     }
 }

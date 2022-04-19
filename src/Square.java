@@ -33,6 +33,6 @@ public class Square extends Rectangle {
     
     @Override
     public String toString() {
-        return super.super.toString() + ", side: " + this.getSide();
+        return super.toString();
     }
 }
